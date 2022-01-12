@@ -1,0 +1,57 @@
+.navbar *{
+    font-family: var(--bold-font);
+    font-weight: bolder;
+}
+
+.navbar{
+    position: fixed;
+    height: var(--header-height);
+    justify-content: space-between;
+    box-shadow: 3px 0px 3px var(--light-grey);
+    background-color: white;
+}
+
+.navbar-logo{
+    /* If this is set to 75% it doesn't work on iOS (though the problem doesn't 
+    show up on Chrome); calculating it based on the variable solves this. */
+    height: calc(var(--header-height) * 0.75);
+}
+
+.navbar-logo img{
+    height: 100%;
+    width: auto;
+}
+
+.nav-links li{
+    display: inline;
+    margin: 0em 1.5em;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar a,
+.nav-links a{
+    color: var(--grey);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/** TRANSITION TO IPAD: **/
+/** This 850px breakpoint is also a constant in the Navbar component **/
+@media screen and (max-width: 850px) {
+
+    .nav-links{
+        width: auto;
+        min-width: 300px;
+        max-width: 90vw;
+    }
+
+    .nav-links li{
+        font-size: 25px;
+    }
+
+    .nav-link{
+        margin: auto;
+    }
+}

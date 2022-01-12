@@ -1,0 +1,27 @@
+.footer,
+.footer *{
+    background-color: var(--grey);
+    text-align: center;
+}
+
+.footer{
+    height: auto;
+    min-height: var(--footer-height);
+    width: 100%;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer ul{
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer li,
+.footer li a{
+    color: white;
+    font-weight: medium;
+    font-size: 14px;
+    padding: 5px 0px;
+}

@@ -1,0 +1,42 @@
+.auth-page{
+    background-color: white;
+    width: 800px;
+    min-height: var(--min-page-height);
+    max-width: 100%;
+    justify-content: flex-start;
+}
+
+.auth-form{
+    width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.auth-form label p{
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.auth-form label input{
+    width: 100%;
+    margin-top: 5px;
+    min-height: 35px;
+    border: 1px solid var(--light-grey);
+    border-radius: var(--text-border-radius);
+    font-size: 18px;
+    padding: 5px;
+}
+
+.auth-form label .checkbox{
+    min-width: 20%;
+}
+
+.auth-page-links {
+    justify-content: center;
+}
+
+.auth-page-link-item {
+    margin: 10px 15px;
+}
