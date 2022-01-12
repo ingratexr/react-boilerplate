@@ -26,7 +26,8 @@ function LinkRow({ links }) {
     const linkStyle = {
         fontWeight: "200",
         fontSize: `${size}px`,
-        marginBottom: `${isPhone ? size : 0}px`
+        marginBottom: `${isPhone ? size : 0}px`,
+        cursor: "pointer",
     }
 
     // Turn each link into a clickable h3.
