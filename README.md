@@ -1,5 +1,5 @@
 # React Boilerplate
-This is a collection of React components I've used/reused in various projects.
+This is a collection of React components I've reused in various projects.
 It's also a folder structure that I like and reuse.
 
 These components can be dropped as-is into a new React project, but generally I
@@ -25,14 +25,14 @@ CONCERNS!" while they set up a guillotine in my front yard, this is better becau
 
 * I can copy a single file from here into whatever other project and it will work 
 immediately, with the styling easy to change (or factor out).
-* A lot of it is reponsive and so I would do it inline anyway.
+* Much of the styling is reponsive and so I would do it inline anyway.
 * It's often easier to maintain or refactor inline styled components (the
 tradeoff, though, is that they can be harder to extend).
 
-YMMV; my point is just that this is a choice, not a mistake.
+In other words: this is a choice, not a mistake.
 
 ## Dependencies
-Check out the package.json file for the whole list, but two to mention:
+See the package.json file for the complete list, but two to mention:
 
 ### Firebase
 This isn't a dependency exactly but some stuff like the AuthContext mentions
@@ -40,7 +40,7 @@ Firebase.
 
 I like Firebase and have used it in many projects. It lets me
 get something up and running with any combination of hosting,
-authentication, a non-relational database, a serverless back end, and other
+authentication, a document-based database, a serverless back end, and other
 stuff, very quickly, with basically zero work. There's also a generous free
 tier.
 
